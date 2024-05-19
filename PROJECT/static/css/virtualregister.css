@@ -1,0 +1,81 @@
+.section-title {
+    text-align: center;
+    /* padding-bottom: 30px; */
+}
+
+.pricing .row {
+    padding-top: 0px;
+}
+
+.card {
+    margin-top: 57px;
+    border-radius: 8px 40px 40px 8px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 1px 0px 8px 2px rgb(255, 113, 47);
+}
+
+.bg-dark {
+    background-color: #d47f63;
+    background-image: linear-gradient(315deg, #d49a63 0%, #b85523 74%);
+}
+
+label {
+    color: white;
+    margin-top: 15px;
+    font-family: 'Itim', cursive;
+}
+
+.jumbotron {
+    background-color: #915318;
+    background-image: linear-gradient(315deg, #bb722a 0%, #d67514 74%);
+}
+
+#gender {
+    width: 300px;
+}
+
+#slot {
+    width: 300px;
+}
+
+#dept {
+    width: 300px;
+}
+
+.form-group input {
+    width: 300px;
+    border: none;
+    /* border-bottom: 1px solid purple; */
+    border-bottom: 2px solid rgb(171, 94, 12);
+    outline: none;
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-family: 'Itim', cursive;
+}
+
+option {
+    width: 400px;
+    border: none;
+    border-bottom: 2px solid rgb(159, 74, 17);
+    outline: none;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.form-group input:hover {
+    background-color: ghostwhite;
+}
+
+#btn {
+    background-color: #be5a12;
+    background-image: linear-gradient(315deg, #bd7018 0%, #ad6720 74%);
+    border-radius: 15px;
+    border: none;
+    position: relative;
+    width: 300px;
+}
+
+#btn:hover {
+    background-color: white;
+    color: white;
+}
